@@ -6,5 +6,4 @@ jobs:
     steps:
       - name: my-step
         run: |
-          echo "Hello World"
-          echo ${{ secrets.SECRET_TOKEN }} |
+          echo "Hello World" |
