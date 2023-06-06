@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        env: # Or as an environment variable
-          credentials: ${{ secrets.SECRET_TOKEN }}
+        run: echo ${{ secrets.SECRET_TOKEN }}
